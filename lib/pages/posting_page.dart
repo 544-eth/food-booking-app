@@ -11,7 +11,7 @@ class _PostingPageState extends State<PostingPage> {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Text('Different Food Post will be here'),
+      child: Text('Different Houses Post will be here'),
     );
   }
 }

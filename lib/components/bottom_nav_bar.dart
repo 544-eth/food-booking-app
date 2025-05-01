@@ -24,8 +24,8 @@ class MyBottomNavBar extends StatelessWidget {
         onTabChange: (value) => onTabChange!(value),
         tabs: const [
           GButton(
-            icon: Icons.lunch_dining_outlined,
-            text: "Food",
+            icon: Icons.holiday_village_rounded,
+            text: "Homes",
             iconSize: 20,
             textStyle: TextStyle(fontSize: 11),
             padding: EdgeInsets.symmetric(vertical: 5, horizontal: 10),
@@ -41,15 +41,15 @@ class MyBottomNavBar extends StatelessWidget {
 
           GButton(
             icon: Icons.add_box_rounded,
-            text: "Add",
+            text: "Post",
             iconSize: 20,
             textStyle: TextStyle(fontSize: 11),
             padding: EdgeInsets.symmetric(vertical: 5, horizontal: 10),
           ),
 
           GButton(
-            icon: Icons.shopping_bag_sharp,
-            text: "CheckOut",
+            icon: Icons.favorite_rounded,
+            text: "Favorite",
             iconSize: 20,
             textStyle: TextStyle(fontSize: 11),
             padding: EdgeInsets.symmetric(vertical: 5, horizontal: 10),

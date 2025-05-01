@@ -6,7 +6,7 @@ class KitchenPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Text("Whats for dinner"),
+      child: Text("Looking for an apartment?"),
     );
   }
 }

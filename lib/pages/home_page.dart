@@ -64,34 +64,26 @@ class _HomePageState extends State<HomePage> {
         child: Column(
           children: [
             // Logo
-           DrawerHeader(
-              margin: EdgeInsets.zero, // Remove extra spacing
-              padding: EdgeInsets.zero, // Remove internal padding
-              decoration: BoxDecoration(
-                color: Colors.grey.shade900, // Match drawer background
-              ),
-              // ClipRect(),
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center, // Center content vertically
-                children: [
-                  Image.asset(
-                    'assets/cook.png',
-                  
-                    fit: BoxFit.contain, // Prevents stretching
-                  ),
-                ],
+          Container(
+            padding: const EdgeInsets.only(top: 40, bottom: 20),
+            color: Color.fromARGB(255, 11, 33, 49), // match your drawer background
+            child: Image.asset(
+               'assets/house_cropped.png',
+               color: Colors.white,
+               height: 50,
               ),
             ),
 
+
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 20.0),
+              padding: const EdgeInsets.symmetric(horizontal: 25.0),
               child:  Divider(
                 color: Colors.transparent,
               ),
             ),
 
             const Padding(
-              padding:  EdgeInsets.only(left: 24.0),
+              padding:  EdgeInsets.only(left: 25.0),
               child: ListTile(
                 leading: Icon(
                   Icons.home,
@@ -105,7 +97,7 @@ class _HomePageState extends State<HomePage> {
             ),
 
             const Padding(
-              padding:  EdgeInsets.only(left: 24.0),
+              padding:  EdgeInsets.only(left: 25.0),
               child: ListTile(
                 leading: Icon(
                   Icons.post_add,
@@ -119,7 +111,7 @@ class _HomePageState extends State<HomePage> {
             ),
 
             const Padding(
-              padding:  EdgeInsets.only(left: 24.0),
+              padding:  EdgeInsets.only(left: 25.0),
               child: ListTile(
                 leading: Icon(
                   Icons.info_sharp,
@@ -133,7 +125,7 @@ class _HomePageState extends State<HomePage> {
             ),
 
             const Padding(
-              padding:  EdgeInsets.only(left: 24.0),
+              padding:  EdgeInsets.only(left: 25.0),
               child: ListTile(
                 leading: Icon(
                   Icons.login_outlined,
